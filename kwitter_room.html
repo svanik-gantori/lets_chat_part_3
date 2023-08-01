@@ -1,0 +1,33 @@
+<head>
+    <title id="title">ChatRooms</title>
+    <link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet"><meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    
+    <link rel="stylesheet" type="text/css" href="kwitter_room.css">
+    <script src="kwitter_room.js"></script>
+</head>
+<body>
+    <div class="container">
+        <button id="logout" class="glyphicon glyphicon-log-out btn btn-danger" onclick="logOut()">Logout</button>
+        <br>
+        <br>
+        <center>
+            LetsChat
+            <sup>
+                <img height="100" width="100" src="chat_box.png" >
+            </sup>
+            <br>
+            <h3 id="user_name" class="text-danger"></h3>
+            <h4>Create your own room name</h4>
+            <br>
+            <input id="input" class="form-control text-danger" type="text" placeholder="Room Name">
+            <br>
+            <button id="create_room" class="btn btn-danger" onclick="setRoom()">Create Room</button>
+            <html id="list_of_rooms"
+        </center>
+    </div>
+    
+</body>
